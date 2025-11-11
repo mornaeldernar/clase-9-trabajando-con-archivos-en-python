@@ -1,0 +1,29 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Laptop Pro",
+            "precio": 1200.00,
+            "especificaciones": {
+                "procesador": "Intel i7",
+                "ram": "16GB",
+                "almacenamiento": "512GB SSD"
+            },
+            "colores_disponibles": ["plateado", "gris espacial"],
+            "en_stock": true
+        },
+        {
+            "id": 2,
+            "nombre": "Smartphone X",
+            "precio": 800.00,
+            "especificaciones": {
+                "pantalla": "6.5 pulgadas",
+                "ram": "8GB",
+                "almacenamiento": "256GB"
+            },
+            "colores_disponibles": ["negro", "blanco", "azul"],
+            "en_stock": false
+        }
+    ],
+    "ultima_actualizacion": "2024-02-08T10:30:00"
+}
