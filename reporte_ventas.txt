@@ -1,0 +1,16 @@
+<<< Reporte de Ventas >>>
+
+ - Producto Laptop
+   + unidades vendidas 3
+   + total vendido del producto  $3,600.00
+
+ - Producto Smartphone
+   + unidades vendidas 1
+   + total vendido del producto  $800.00
+
+ - Producto Tablet
+   + unidades vendidas 3
+   + total vendido del producto  $1,500.00
+
+
+Total Vendido $5,900.00

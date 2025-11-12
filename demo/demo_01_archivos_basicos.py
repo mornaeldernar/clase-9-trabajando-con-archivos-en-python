@@ -30,13 +30,16 @@ def demo_archivos_basicos():
     
     # Ejemplo 3: Leer archivo línea por línea
     print("\n3. Leyendo archivo línea por línea:")
+    # "r" = read lectura
+    # "w" = write escritura
+    # "a" = append agregar al final
     try:
         with open("ventas.txt", "r") as archivo:
             print("Procesando ventas:")
             total = 0
             for linea in archivo:
-                producto, precio = linea.strip().split(",")
-                total += float(precio)
+                producto, precio = linea.strip().split(",") # producto=Tablet precio=500
+                total += float(precio)  # total = 0 + 1200 = 1200 + 800 = 2000 + 500 = 2500
                 print(f"- {producto}: ${precio}")
             print(f"Total de ventas: ${total}")
     except IOError as e:

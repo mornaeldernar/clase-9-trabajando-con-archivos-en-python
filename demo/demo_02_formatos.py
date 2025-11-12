@@ -72,3 +72,9 @@ def demo_formatos():
 
 if __name__ == "__main__":
     demo_formatos()
+
+
+import pandas as pd
+
+df = pd.read_csv('/workspaces/codespaces-blank/inventario.csv')
+print(df)

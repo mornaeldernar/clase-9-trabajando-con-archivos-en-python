@@ -1,0 +1,16 @@
+{
+    "fecha": "2025-11-12",
+    "total": 2500,
+    "transacciones": [
+        {
+            "producto": "Laptop Pro",
+            "cantidad": 1,
+            "total": 1200
+        },
+        {
+            "producto": "Smartphone X",
+            "cantidad": 2,
+            "total": 1300
+        }
+    ]
+}
